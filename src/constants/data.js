@@ -59,24 +59,33 @@ const cocktails = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Epicurean Excellence',
+    subtitle: 'Celebrating a menu that pushes culinary boundaries with finesse and flavor.',
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Culinary Visionary',
+    subtitle: 'Honoring innovative techniques and creativity in the art of cooking.',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Golden Plate Award',
+    subtitle: 'Acknowledging a perfect blend of ambiance, service, and exceptional cuisine.',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Master of Flavors',
+    subtitle: 'Recognizing a chef’s unique ability to craft unforgettable taste experiences.',
   },
 ];
 
-export default { wines, cocktails, awards };
+
+const data = { 
+  wines, 
+  cocktails, 
+  awards 
+};
+
+export default data;
+
+// export default { wines, cocktails, awards };
